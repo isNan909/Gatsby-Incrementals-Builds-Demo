@@ -8,6 +8,9 @@ import SEO from "../components/seo"
 const SecondPage = (props: PageProps) => {
   const [imageSource] = useState([
     {
+      file: "article.png",
+    },
+    {
       file: "bg.png",
     },
     {
