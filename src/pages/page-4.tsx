@@ -26,7 +26,7 @@ const FourthPage = (props: PageProps) => {
   return (
     <Layout>
       <SEO title="Page four" />
-      <h1>Hi from the second page</h1>
+      <h1>Hi from the fourth page</h1>
       <p>Welcome to page 4({props.path})</p>
       {imageSource.map((e, i) => (
         <Image class="image-sample" filename={e.file} key={i} alt="image" />

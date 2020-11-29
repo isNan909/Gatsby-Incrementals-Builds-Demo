@@ -27,7 +27,7 @@ const ThirdPage = (props: PageProps) => {
     <Layout>
       <SEO title="Page three" />
       <h1>Hi from the third page</h1>
-      <p>Welcome to page 3 ({props.path})</p>
+      <p>Welcome to the third page({props.path})</p>
       {imageSource.map((e, i) => (
         <Image class="image-sample" filename={e.file} key={i} alt="image" />
       ))}

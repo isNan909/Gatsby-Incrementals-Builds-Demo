@@ -26,7 +26,7 @@ const FivePage = (props: PageProps) => {
   return (
     <Layout>
       <SEO title="Page five" />
-      <h1>Hi from the Fifth page</h1>
+      <h1>Hi from the fifth page</h1>
       <p>Welcome to page 5 ({props.path})</p>
       {imageSource.map((e, i) => (
         <Image class="image-sample" filename={e.file} key={i} alt="image" />
